@@ -1,13 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  @apply bg-[#f5f5f5]
+  md:flex
+  md:justify-between
+  md:items-center;
+}
+
+.logoNav {
+  @apply md:w-[300px]
+  md:pl-5
+  w-max
+  z-20;
+}
+
+.ion-icon {
+  @apply text-[70px]
+  text-[#F9B3BC]
+  md:hidden
+  w-[80px]
+  h-[80px]
+  bg-[#E92267]
+  flex
+  items-center
+  justify-center;
+}
+
+.containerLogoMenu {
+  @apply flex
+  justify-between
+  items-center
+  w-[767px]
+  pr-24
+  pl-6
+  pt-8;
+}
+
+.menu {
+  @apply text-[#E92267]
+absolute
+  pr-8
+  md:pt-12
+  md:flex
+  md:items-center
+  md:z-auto
+  md:static
+  md:opacity-100
+  bg-[#f5f5f5]
+  py-7
+  pl-7
+  w-[768px]
+  h-[480px]
+  md:h-24
+  ml-0
+  transition-all
+  ease-in;
+}
+
+.li {
+  @apply ml-6
+  my-3
+  py-4
+  text-4xl
+  md:text-xl;
+}
+
+.header {
+  @apply bg-[url("./imagens/background_header.jpg")]
+  w-[768px]
+  h-[400px]
+  bg-cover
+  bg-center
+  mt-6
+  md:mt-2
+  flex
+  items-center;
+}
+
+.span-header {
+  @apply text-[#E92267]
+  font-poppins
+  text-[40px]
+  leading-[50px]
+  pl-6;
+}
+
+h1 ::before {
+  content: "OBESIDADE INFANTIL ";
+  animation: animate infinite 8s;
+}
+
+@keyframes animate {
+  25% {
+    content: "DIABETES";
+  }
+  50% {
+    content: "PUBERDADE PRECOCE";
+  }
+  75% {
+    content: "DISTÚRBIOS DO CRESCIMENTO";
+  }
 }
