@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import InstagramIcon from "../imagens/instagram_icon.svg";
 
 function sectionProfile() {
@@ -15,10 +16,15 @@ function sectionProfile() {
         </a>
       </div>
       <div className="flex flex-col items-end w-[767px] mt-4">
-        <h2 className="h2 text-5xl text-[#E92267] font-poppins font-medium">
-          Sobre mim
-        </h2>
-        <div className="div-line w-[600px] h-[4px] bg-[#E92267]"> </div>
+        <Fade right>
+          <h2
+            className="h2 text-5xl text-[#E92267] font-poppins font-medium"
+            id="sobre-mim"
+          >
+            Sobre mim
+          </h2>
+          <div className="div-line w-[600px] h-[4px] bg-[#E92267]"> </div>
+        </Fade>
       </div>
     </section>
   );
