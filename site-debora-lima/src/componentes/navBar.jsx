@@ -28,7 +28,7 @@ function NavBar() {
           <a href="#sobre-mim">Sobre mim</a>
         </li>
         <li className="li  hover:text-[#F9B3BC] duration-600">
-          <a href="/">O que dizem?</a>
+          <a href="#o-que-dizem">O que dizem?</a>
         </li>
         <li className="li  hover:text-[#F9B3BC] duration-600">
           <a href="/">Tratamentos</a>

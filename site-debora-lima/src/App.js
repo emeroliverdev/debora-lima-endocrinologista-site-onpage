@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./componentes/header";
 import NavBar from "./componentes/navBar";
-import SectionProfile from "./componentes/sectionProfile";
+import ProfileSection from "./componentes/profileSection";
+import ReviewsSection from "./componentes/reviewsSection";
 import "./index.css";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <NavBar />
       <Header />
       <main>
-        <SectionProfile />
+        <ProfileSection />
+        <ReviewsSection />
       </main>
     </>
   );

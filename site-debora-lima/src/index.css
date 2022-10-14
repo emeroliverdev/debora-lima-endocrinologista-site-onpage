@@ -108,3 +108,42 @@ h1 ::before {
     content: "DISTÚRBIOS DO CRESCIMENTO";
   }
 }
+
+.sobre-mim-mobile {
+  @apply mt-12
+  w-[767px]
+  h-[1350px]
+  flex
+  flex-col
+  items-center;
+}
+
+.foto-perfil-mobile {
+  @apply md:hidden
+  w-[400px]
+  h-[400px];
+}
+
+.texto-sobre-mim {
+  @apply border-solid
+border-[#E92267]
+border-[4px]
+rounded-[40px]
+w-[600px]
+h-[1025px]
+mt-[300px]
+absolute
+z-[-1];
+}
+
+.paragrafo-sobre-mim {
+  @apply flex
+justify-center
+items-center
+pt-[120px]
+font-poppins
+font-medium
+text-[#E92267]
+text-[25px]
+text-center;
+}
