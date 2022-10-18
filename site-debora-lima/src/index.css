@@ -152,11 +152,41 @@ text-center;
   @apply border-solid
 border-[#E92267]
 border-[3px]
-w-[300px]
-h-[50px]
-rounded-3xl
+w-[350px]
+h-[60px]
+rounded-[30px]
 font-poppins
 font-medium
-text-[22px]
+text-[24px]
 text-[#E92267];
+}
+
+.div-tratamentos {
+  @apply mt-14
+flex
+flex-col
+justify-center
+items-center
+w-[767px];
+}
+
+.div-cabecalho {
+  @apply w-[75%]
+h-[100px]
+bg-white
+rounded-t-[100px]
+border-[6px]
+border-solid
+border-b-0
+border-[#E92267]
+text-center
+flex justify-center
+items-center;
+}
+
+.div-corpo {
+  @apply w-[75%]
+h-[500px]
+bg-[#E92267]
+rounded-b-[100px];
 }

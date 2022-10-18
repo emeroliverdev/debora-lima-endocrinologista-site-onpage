@@ -17,7 +17,7 @@ function reviewsSection() {
     <div className="flex flex-col items-start w-[767px] mt-8">
       <Fade left>
         <h2
-          className="h2 text-6xl text-[#E92267] font-poppins font-medium ml-8"
+          className="h2 text-6xl text-[#E92267] font-poppins font-semibold ml-8"
           id="o-que-dizem"
         >
           O que dizem?

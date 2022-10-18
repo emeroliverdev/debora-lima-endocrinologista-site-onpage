@@ -3,6 +3,7 @@ import Header from "./componentes/header";
 import NavBar from "./componentes/navBar";
 import ProfileSection from "./componentes/profileSection";
 import ReviewsSection from "./componentes/reviewsSection";
+import TreatmentsSection from "./componentes/treatmentsSection";
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
         <ProfileSection />
         <ReviewsSection />
+        <TreatmentsSection />
       </main>
     </>
   );

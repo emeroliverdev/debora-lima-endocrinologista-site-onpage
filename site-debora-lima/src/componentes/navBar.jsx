@@ -31,7 +31,7 @@ function NavBar() {
           <a href="#o-que-dizem">O que dizem?</a>
         </li>
         <li className="li  hover:text-[#F9B3BC] duration-600">
-          <a href="/">Tratamentos</a>
+          <a href="#tratamentos">Tratamentos</a>
         </li>
         <li className="li  hover:text-[#F9B3BC] duration-600">
           <a href="/">Contato</a>
