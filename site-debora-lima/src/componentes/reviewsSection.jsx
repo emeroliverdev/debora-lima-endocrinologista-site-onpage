@@ -1,10 +1,18 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
+import OwlCarousel from "react-owl-carousel2";
+import "react-owl-carousel2/lib/styles.css";
 import Avaliacao1 from "../imagens/avaliação_gmn_01.png";
 import Avaliacao2 from "../imagens/avaliação_gmn_02.png";
 import Avaliacao3 from "../imagens/avaliação_gmn_03.png";
 
 function reviewsSection() {
+  const options = {
+    items: 1,
+    rewind: true,
+    autoplay: true,
+    loop: true,
+  };
   return (
     <div className="flex flex-col items-start w-[767px] mt-8">
       <Fade left>
@@ -18,30 +26,24 @@ function reviewsSection() {
           {" "}
         </div>
       </Fade>
-      <div>
-        <div className="w-[767px] flex justify-center mt-10">
-          <a href="https://bit.ly/3CCmlfi">
-            <img
-              src={Avaliacao1}
-              alt="avaliação do perfil google meu negocio"
-              className="w-[650px]"
-            />
-          </a>
-          <a href="https://bit.ly/3CCmlfi">
-            <img
-              src={Avaliacao2}
-              alt="avaliação do perfil google meu negocio"
-              className="w-[650px]"
-            />
-          </a>
-          <a href="https://bit.ly/3CCmlfi">
-            <img
-              src={Avaliacao3}
-              alt="avaliação do perfil google meu negocio"
-              className="w-[650px]"
-            />
-          </a>
-        </div>
+      <div className="w-[767px] mt-10">
+        <OwlCarousel options={options}>
+          <img
+            src={Avaliacao1}
+            alt="avaliação do perfil google meu negocio"
+            className="w-[600px]"
+          />
+          <img
+            src={Avaliacao2}
+            alt="avaliação do perfil google meu negocio"
+            className="w-[600px]"
+          />
+          <img
+            src={Avaliacao3}
+            alt="avaliação do perfil google meu negocio"
+            className="w-[600px]"
+          />
+        </OwlCarousel>
       </div>
     </div>
   );
