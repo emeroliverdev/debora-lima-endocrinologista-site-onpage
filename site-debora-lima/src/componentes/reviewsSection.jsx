@@ -45,6 +45,13 @@ function reviewsSection() {
           />
         </OwlCarousel>
       </div>
+      <div className="flex justify-center w-full">
+        <a href="https://bit.ly/3CCmlfi">
+          <button type="button" className="btn">
+            Ver mais Avaliações
+          </button>
+        </a>
+      </div>
     </div>
   );
 }

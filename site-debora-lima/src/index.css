@@ -147,3 +147,16 @@ text-[#E92267]
 text-[25px]
 text-center;
 }
+
+.btn {
+  @apply border-solid
+border-[#E92267]
+border-[3px]
+w-[300px]
+h-[50px]
+rounded-3xl
+font-poppins
+font-medium
+text-[22px]
+text-[#E92267];
+}
