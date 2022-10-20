@@ -26,7 +26,7 @@ function profileSection() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-end w-[767px] mt-8">
+      <div className="flex flex-col items-end w-[767px] mt-12">
         <Fade right>
           <h2
             className="h2 text-6xl text-[#E92267] font-poppins font-semibold mr-8"

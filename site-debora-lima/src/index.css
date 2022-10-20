@@ -152,17 +152,17 @@ text-center;
   @apply border-solid
 border-[#E92267]
 border-[3px]
-w-[350px]
-h-[60px]
-rounded-[30px]
+w-[380px]
+h-[70px]
+rounded-[50px]
 font-poppins
-font-medium
-text-[24px]
+font-semibold
+text-[28px]
 text-[#E92267];
 }
 
 .div-tratamentos {
-  @apply mt-14
+  @apply mt-16
 flex
 flex-col
 justify-center
@@ -188,5 +188,6 @@ items-center;
   @apply w-[75%]
 h-[500px]
 bg-[#E92267]
-rounded-b-[100px];
+rounded-b-[100px]
+shadow-lg;
 }

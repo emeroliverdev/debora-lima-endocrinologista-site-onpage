@@ -14,7 +14,7 @@ function reviewsSection() {
     loop: true,
   };
   return (
-    <div className="flex flex-col items-start w-[767px] mt-8">
+    <div className="flex flex-col items-start w-[767px] mt-12">
       <Fade left>
         <h2
           className="h2 text-6xl text-[#E92267] font-poppins font-semibold ml-8"
@@ -48,7 +48,7 @@ function reviewsSection() {
       <div className="flex justify-center w-full">
         <a href="https://bit.ly/3CCmlfi">
           <button type="button" className="btn">
-            Ver mais Avaliações
+            Ver mais avaliações
           </button>
         </a>
       </div>
