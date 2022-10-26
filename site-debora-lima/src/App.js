@@ -5,6 +5,7 @@ import ProfileSection from "./componentes/profileSection";
 import ReviewsSection from "./componentes/reviewsSection";
 import TreatmentsSection from "./componentes/treatmentsSection";
 import ContactSecion from "./componentes/contatcSection";
+import Footer from "./componentes/footer";
 import "./index.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <TreatmentsSection />
         <ContactSecion />
       </main>
+      <Footer />
     </>
   );
 }

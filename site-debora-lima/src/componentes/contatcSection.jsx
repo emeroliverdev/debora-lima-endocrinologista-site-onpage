@@ -4,6 +4,7 @@ import TelefoneIconFooter from "../imagens/telefone_icon_footer.svg";
 import InstragraIconFooter from "../imagens/instagram_icon_footer.svg";
 import LocalIcon from "../imagens/local_icon.svg";
 import WatchIcon from "../imagens/watch_icon.svg";
+import Consultorio from "../imagens/consultorio.jpg";
 
 function contatcSection() {
   return (
@@ -11,7 +12,7 @@ function contatcSection() {
       <Fade left>
         <h2
           className="h2 text-6xl text-[#E92267] font-poppins font-semibold ml-8"
-          id="o-que-dizem"
+          id="contato"
         >
           Atendimento
         </h2>
@@ -19,7 +20,7 @@ function contatcSection() {
           {" "}
         </div>
       </Fade>
-      <div className="w-full h-[700px] bg-[#F9B3BC] mt-4 flex-col justify-center">
+      <div className="w-full h-[1000px] bg-[#F9B3BC] mt-4 flex-col justify-center">
         <div className="div-contato mt-10">
           <a href="tel:+553736909251">
             <img
@@ -79,6 +80,13 @@ function contatcSection() {
               @dradebora_lima.endocrinoped
             </span>
           </a>
+        </div>
+        <div className="w-full flex justify-center items-center mt-8">
+          <img
+            src={Consultorio}
+            alt="doutora Débora Lima em seu consultório"
+            className="w-[720px]"
+          />
         </div>
       </div>
     </div>

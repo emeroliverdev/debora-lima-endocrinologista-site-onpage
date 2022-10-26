@@ -11,6 +11,7 @@ function NavBar() {
           src={LogoNav}
           alt="logotipo doutora débora lima"
           className="logoNav"
+          id="inicio"
         />
         <button
           onClick={() => setOpen(!open)}
@@ -21,20 +22,20 @@ function NavBar() {
         </button>
       </div>
       <ul className={`menu ${open ? "top-[150px]" : "opacity-0"}`}>
-        <li className="li hover:text-[#F9B3BC] duration-600">
-          <a href="/">Início</a>
+        <li className="li-navbar hover:text-[#F9B3BC] duration-600">
+          <a href="#inicio">Início</a>
         </li>
-        <li className="li  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
           <a href="#sobre-mim">Sobre mim</a>
         </li>
-        <li className="li  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
           <a href="#o-que-dizem">O que dizem?</a>
         </li>
-        <li className="li  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
           <a href="#tratamentos">Tratamentos</a>
         </li>
-        <li className="li  hover:text-[#F9B3BC] duration-600">
-          <a href="/">Contato</a>
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
+          <a href="#contato">Contato</a>
         </li>
       </ul>
     </nav>

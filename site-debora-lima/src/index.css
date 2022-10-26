@@ -64,7 +64,7 @@ absolute
   ease-in;
 }
 
-.li {
+.li-navbar {
   @apply ml-6
   my-3
   py-4
@@ -196,4 +196,12 @@ shadow-lg;
   justify-start
   items-center
   pl-[60px];
+}
+
+.li-footer {
+  @apply font-poppins
+font-semibold
+text-[30px]
+text-[#f5f5f5]
+py-1;
 }
