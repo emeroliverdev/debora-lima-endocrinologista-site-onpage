@@ -47,7 +47,7 @@ function reviewsSection() {
       </div>
       <div className="flex justify-center w-full">
         <a href="https://bit.ly/3CCmlfi">
-          <button type="button" className="btn">
+          <button type="button" className="btn w-[380px] h-[70px]">
             Ver mais avaliações
           </button>
         </a>

@@ -152,8 +152,6 @@ text-center;
   @apply border-solid
 border-[#E92267]
 border-[3px]
-w-[380px]
-h-[70px]
 rounded-[50px]
 font-poppins
 font-semibold
@@ -190,4 +188,12 @@ h-[500px]
 bg-[#E92267]
 rounded-b-[100px]
 shadow-lg;
+}
+
+.div-contato {
+  @apply w-full h-[60px]
+  flex
+  justify-start
+  items-center
+  pl-[60px];
 }

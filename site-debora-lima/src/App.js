@@ -4,6 +4,7 @@ import NavBar from "./componentes/navBar";
 import ProfileSection from "./componentes/profileSection";
 import ReviewsSection from "./componentes/reviewsSection";
 import TreatmentsSection from "./componentes/treatmentsSection";
+import ContactSecion from "./componentes/contatcSection";
 import "./index.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <ProfileSection />
         <ReviewsSection />
         <TreatmentsSection />
+        <ContactSecion />
       </main>
     </>
   );
