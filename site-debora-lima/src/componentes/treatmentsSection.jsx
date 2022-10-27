@@ -10,20 +10,16 @@ function treatmentsSection() {
           <h2 className="h2 mr-8" id="tratamentos">
             Tratamentos
           </h2>
-          <div className="div-line w-[650px] h-[4px] bg-[#E92267] mr-[125px] mt-1">
-            {" "}
-          </div>
+          <div className="div-line"> </div>
         </Fade>
       </div>
-      <Fade bottom>
+      <div className="md:flex flex-wrap justify-around">
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              PUBERDADE PRECOCE
-            </h2>
+            <h2 className="h2-card">PUBERDADE PRECOCE</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 px-2">
+            <p className="p-card">
               Quando caracteríticas do início da fase adulta aparecem antes do
               tempo normal, tais como: pelos, odor axiliar, instabilidade de
               humor, etc. Esses sinais não devem ocorrer antes dos{" "}
@@ -32,16 +28,12 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom>
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              DIABETES TIPO 1
-            </h2>
+            <h2 className="h2-card">DIABETES TIPO 1</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 px-2">
+            <p className="p-card">
               Doença crônica, auto-imune, mais frequente na adolescência. Caso
               em que o pâncreas produz pouca ou nenhuma insulina. Sintomas como
               sede excessiva, fome excessiva, cansaço e visão turva, podem ser
@@ -50,16 +42,12 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom>
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              PROBLEMAS DA TIREOIDE
-            </h2>
+            <h2 className="h2-card">PROBLEMAS DA TIREOIDE</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 px-2">
+            <p className="p-card">
               Alterações hormonais da Tireoide como o <b>Hipotireoidismo</b>{" "}
               (pouca produção hormonal) ou <b>Hipertireoidismo</b> (excesso de
               hotmônio) podem afetar o desenvolvimento e o crescimento da
@@ -67,16 +55,12 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom>
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              OBSIDADE INFANTIL
-            </h2>
+            <h2 className="h2-card">OBSIDADE INFANTIL</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 px-2">
+            <p className="p-card">
               Dados do Ministério da Saúde de 2021 estimou que existam mais de 3
               milhões de crianças obesas no Brasil.
               <br />A obesidade infantil pode causar Diabetes, pressão alta e
@@ -84,16 +68,12 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom>
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              BAIXA ESTATURA
-            </h2>
+            <h2 className="h2-card">BAIXA ESTATURA</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 p-2">
+            <p className="p-card">
               Quando a altura da criança ou adolescente está abaixo da média
               para a idade e sexo.
               <br />
@@ -105,16 +85,12 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
-      <Fade bottom>
         <div className="div-tratamentos">
           <div className="div-cabecalho">
-            <h2 className="text-[40px] text-[#E92267] font-poppins font-bold">
-              SÍDROMES
-            </h2>
+            <h2 className="h2-card">SÍDROMES</h2>
           </div>
           <div className="div-corpo text-center">
-            <p className="text-[#f5f5f5] text-4xl font-poppins font-medium pt-10 px-2">
+            <p className="p-card">
               <b>NOONAN</b> - Doença genética, com vários sintomas possíveis. O
               acompanhamento médico é essencial.
               <br />
@@ -126,7 +102,7 @@ function treatmentsSection() {
             </p>
           </div>
         </div>
-      </Fade>
+      </div>
       <div className="div-agendar mt-6">
         <span className="text-4xl font-poppins text-[#f5f5f5] pl-6">
           Agendar Consulta
