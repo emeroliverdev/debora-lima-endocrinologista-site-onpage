@@ -14,7 +14,7 @@ function reviewsSection() {
     loop: true,
   };
   return (
-    <div className="flex flex-col items-start w-[767px] mt-12">
+    <div className="div-transicao-left">
       <Fade left>
         <h2 className="h2 ml-8" id="o-que-dizem">
           O que dizem?

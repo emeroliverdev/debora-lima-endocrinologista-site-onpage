@@ -5,7 +5,7 @@ import TelefoneIcon from "../imagens/telefone_icon.svg";
 function treatmentsSection() {
   return (
     <div>
-      <div className="flex flex-col items-end w-[767px] mt-16">
+      <div className="div-transicao-right">
         <Fade right>
           <h2 className="h2 mr-8" id="tratamentos">
             Tratamentos

@@ -144,7 +144,7 @@ h1 ::before {
   }
 }
 
-.div-agendar {
+.div-cta {
   @apply h-[150px]
   w-[767px]
   bg-[#E92267]
@@ -172,6 +172,33 @@ font-semibold;
   items-center;
 }
 
+.div-transicao-right {
+  @apply flex
+  flex-col
+  items-end
+  w-[767px]
+  mt-16
+  lg:w-[1280px];
+}
+
+.div-transicao-left {
+  @apply flex
+  flex-col
+  items-start
+  w-[767px]
+  mt-16
+  lg:w-[1280px];
+}
+
+.div-line {
+  @apply w-[650px]
+  h-[4px]
+  bg-[#E92267]
+  mr-[125px]
+  mt-1
+  lg:w-[1200px];
+}
+
 .foto-perfil-mobile {
   @apply md:hidden
   w-[400px]
@@ -188,6 +215,17 @@ h-[1025px]
 mt-[300px]
 absolute
 z-[-1];
+}
+
+.div-insta {
+  @apply h-[150px]
+  w-[767px]
+  bg-[#E92267]
+  flex
+  justify-center
+  items-center
+  lg:w-[1350px]
+  lg:h-[175px];
 }
 
 .paragrafo-sobre-mim {

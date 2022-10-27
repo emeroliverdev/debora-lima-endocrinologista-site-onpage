@@ -7,7 +7,7 @@ import TelefoneIcon from "../imagens/telefone_icon.svg";
 function profileSection() {
   return (
     <section>
-      <div className="div-agendar">
+      <div className="div-cta">
         <span className="text-4xl font-poppins text-[#f5f5f5]">
           Agendar Consulta
         </span>
@@ -26,14 +26,12 @@ function profileSection() {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-end w-[767px] mt-12">
+      <div className="div-transicao-right">
         <Fade right>
           <h2 className="h2 mr-8" id="sobre-mim">
             Sobre mim
           </h2>
-          <div className="div-line w-[650px] h-[4px] bg-[#E92267] mr-[125px] mt-1">
-            {" "}
-          </div>
+          <div className="div-line"> </div>
         </Fade>
         <div className="sobre-mim-mobile">
           <Fade bottom>
@@ -92,7 +90,7 @@ function profileSection() {
           </div>
         </div>
       </div>
-      <div className="h-[150px] w-[767px] bg-[#E92267] flex justify-center items-center">
+      <div className="div-insta">
         <a href="https://instagram.com/dradebora_lima.endocrinoped?igshid=YmMyMTA2M2Y=">
           <img src={InstagramIcon} alt="icone do instagram" />
         </a>
