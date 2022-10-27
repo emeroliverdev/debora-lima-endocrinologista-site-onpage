@@ -7,10 +7,7 @@ function treatmentsSection() {
     <div>
       <div className="flex flex-col items-end w-[767px] mt-16">
         <Fade right>
-          <h2
-            className="h2 text-7xl text-[#E92267] font-poppins font-semibold mr-8"
-            id="tratamentos"
-          >
+          <h2 className="h2 mr-8" id="tratamentos">
             Tratamentos
           </h2>
           <div className="div-line w-[650px] h-[4px] bg-[#E92267] mr-[125px] mt-1">
@@ -130,7 +127,7 @@ function treatmentsSection() {
           </div>
         </div>
       </Fade>
-      <div className="h-[150px] w-[767px] mt-6 bg-[#E92267] flex flex-col justify-center items-center">
+      <div className="div-agendar mt-6">
         <span className="text-4xl font-poppins text-[#f5f5f5] pl-6">
           Agendar Consulta
         </span>

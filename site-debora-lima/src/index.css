@@ -15,22 +15,28 @@ body {
 }
 
 .logoNav {
-  @apply md:w-[300px]
-  md:pl-5
+  @apply pt-6 
   w-max
-  z-20;
+  z-20
+  md:w-[240px]
+  md:ml-0
+  md:absolute
+  md:pt-2
+  lg:w-[300px]
+  lg:pl-4;
 }
 
 .ion-icon {
   @apply text-[70px]
   text-[#F9B3BC]
-  md:hidden
-  w-[80px]
-  h-[80px]
+  w-[90px]
+  h-[90px]
+  mt-6
   bg-[#E92267]
   flex
   items-center
-  justify-center;
+  justify-center
+  md:hidden;
 }
 
 .containerLogoMenu {
@@ -38,30 +44,36 @@ body {
   justify-between
   items-center
   w-[767px]
-  pr-24
+  pr-20
   pl-6
-  pt-8;
+  pt-0
+  md:w-[240px]
+  md:pl-2
+  lg:w-[300px];
 }
 
 .menu {
   @apply text-[#E92267]
 absolute
   pr-8
-  md:pt-12
-  md:flex
-  md:items-center
-  md:z-auto
-  md:static
-  md:opacity-100
   bg-[#f5f5f5]
   py-7
   pl-7
   w-[768px]
   h-[480px]
-  md:h-24
-  ml-0
   transition-all
-  ease-in;
+  ease-in
+  ml-0
+  md:h-24
+  md:pt-6
+  md:flex
+  md:items-center
+  md:justify-end
+  md:z-auto
+  md:static
+  md:opacity-100
+  md:w-[724px]
+  lg:pr-[40px];
 }
 
 .li-navbar {
@@ -69,27 +81,50 @@ absolute
   my-3
   py-4
   text-4xl
-  md:text-xl;
+  font-poppins
+  font-normal
+  md:text-[18px]
+  md:ml-0
+  md:px-[6px]
+  lg:text-[20px]
+  lg:px-[6px];
 }
 
 .header {
   @apply bg-[url("./imagens/background_header.jpg")]
-  w-[768px]
+  w-[767px]
   h-[400px]
   bg-cover
   bg-center
   mt-6
-  md:mt-2
   flex
-  items-center;
+  items-center
+  md:mt-2
+  lg:w-[1350px]
+  lg:h-[600px];
 }
 
 .span-header {
   @apply text-[#E92267]
   font-poppins
   text-[40px]
+  leading-[40px]
+  pl-6
+  lg:text-[60px]
+  lg:pl-24
+  lg:leading-[60px];
+}
+
+.h1 {
+  @apply text-[39px]
+  font-poppins
   leading-[50px]
-  pl-6;
+  text-[#E92267]
+  pl-6
+  font-bold
+  lg:text-[58px]
+  lg:pl-24
+  lg:leading-[80px];
 }
 
 h1 ::before {
@@ -99,7 +134,7 @@ h1 ::before {
 
 @keyframes animate {
   25% {
-    content: "DIABETES";
+    content: "DIABETES TIPO 1";
   }
   50% {
     content: "PUBERDADE PRECOCE";
@@ -107,6 +142,25 @@ h1 ::before {
   75% {
     content: "DISTÚRBIOS DO CRESCIMENTO";
   }
+}
+
+.div-agendar {
+  @apply h-[150px]
+  w-[767px]
+  bg-[#E92267]
+  flex
+  flex-col
+  justify-center
+  items-center
+  lg:w-[1350px]
+  lg:h-[175px];
+}
+
+.h2 {
+  @apply text-6xl
+text-[#E92267]
+font-poppins
+font-semibold;
 }
 
 .sobre-mim-mobile {

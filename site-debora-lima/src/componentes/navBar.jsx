@@ -22,19 +22,19 @@ function NavBar() {
         </button>
       </div>
       <ul className={`menu ${open ? "top-[150px]" : "opacity-0"}`}>
-        <li className="li-navbar hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar hover:text-[#F9B3BC] duration-300">
           <a href="#inicio">Início</a>
         </li>
-        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-300">
           <a href="#sobre-mim">Sobre mim</a>
         </li>
-        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-300">
           <a href="#o-que-dizem">O que dizem?</a>
         </li>
-        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-300">
           <a href="#tratamentos">Tratamentos</a>
         </li>
-        <li className="li-navbar  hover:text-[#F9B3BC] duration-600">
+        <li className="li-navbar  hover:text-[#F9B3BC] duration-300">
           <a href="#contato">Contato</a>
         </li>
       </ul>

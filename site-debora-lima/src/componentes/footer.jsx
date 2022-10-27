@@ -45,9 +45,9 @@ function footer() {
       </div>
       <div className="text-center mt-6">
         <span className="font-poppins font-medium text-[#f5f5f5] text-2xl">
-          &copy; 2022 Dra. Débora lima | Endocrinologista Pediátrica
+          Dra. Débora lima | Endocrinologista Pediátrica
           <br />
-          Todos os direitos reservados
+          &copy;2022 - Todos os direitos reservados
           <br />
           <br />
           Desenvolvido por E2D Marketing Digital & Sites

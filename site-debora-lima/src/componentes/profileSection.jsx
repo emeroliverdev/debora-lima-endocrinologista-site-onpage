@@ -7,8 +7,8 @@ import TelefoneIcon from "../imagens/telefone_icon.svg";
 function profileSection() {
   return (
     <section>
-      <div className="h-[150px] w-[767px] bg-[#E92267] flex flex-col justify-center items-center">
-        <span className="text-4xl font-poppins text-[#f5f5f5] pl-6">
+      <div className="div-agendar">
+        <span className="text-4xl font-poppins text-[#f5f5f5]">
           Agendar Consulta
         </span>
         <div className="flex items-center pt-4">
@@ -28,10 +28,7 @@ function profileSection() {
       </div>
       <div className="flex flex-col items-end w-[767px] mt-12">
         <Fade right>
-          <h2
-            className="h2 text-6xl text-[#E92267] font-poppins font-semibold mr-8"
-            id="sobre-mim"
-          >
+          <h2 className="h2 mr-8" id="sobre-mim">
             Sobre mim
           </h2>
           <div className="div-line w-[650px] h-[4px] bg-[#E92267] mr-[125px] mt-1">
