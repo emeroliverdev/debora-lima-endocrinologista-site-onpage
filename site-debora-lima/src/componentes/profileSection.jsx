@@ -2,6 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import InstagramIcon from "../imagens/instagram_icon.svg";
 import FotoPerfilMobile from "../imagens/foto_perfil_mobile.jpg";
+import FotoPerfilDesktop from "../imagens/foto_perfil_desktop.jpg";
 import TelefoneIcon from "../imagens/telefone_icon.svg";
 
 function profileSection() {
@@ -33,16 +34,25 @@ function profileSection() {
           </h2>
           <div className="div-line"> </div>
         </Fade>
-        <div className="sobre-mim-mobile">
-          <Fade bottom>
-            <img
-              src={FotoPerfilMobile}
-              alt="foto de perfil da doutora debora lima"
-              className="foto-perfil-mobile"
-            />
-          </Fade>
-          <div className="texto-sobre-mim">
-            <div className="paragrafo-sobre-mim">
+      </div>
+      <div className="sobre-mim-mobile">
+        <Fade bottom>
+          <img
+            src={FotoPerfilMobile}
+            alt="foto de perfil da doutora debora lima"
+            className="foto-perfil-mobile"
+          />
+        </Fade>
+        <Fade left>
+          <img
+            src={FotoPerfilDesktop}
+            alt="foto de perfil doutora débora lima"
+            className="invisible md:visible md:h-[350px] lg:h-[450px]"
+          />
+        </Fade>
+        <div className="texto-sobre-mim">
+          <div className="paragrafo-sobre-mim">
+            <Fade big>
               <p>
                 Olá! Seja bem-vindo(a).
                 <br />
@@ -86,7 +96,7 @@ function profileSection() {
                 <br />
                 Divinópolis e Região.
               </p>
-            </div>
+            </Fade>
           </div>
         </div>
       </div>

@@ -163,15 +163,6 @@ font-poppins
 font-semibold;
 }
 
-.sobre-mim-mobile {
-  @apply mt-12
-  w-[767px]
-  h-[1350px]
-  flex
-  flex-col
-  items-center;
-}
-
 .div-transicao-right {
   @apply flex
   flex-col
@@ -199,6 +190,23 @@ font-semibold;
   lg:w-[1200px];
 }
 
+.sobre-mim-mobile {
+  @apply mt-12
+  w-[767px]
+  h-[1350px]
+  flex
+  flex-col
+  items-center
+  md:w-full
+  md:h-[500px]
+  md:flex
+  md:flex-row
+  md:justify-center
+  md:mt-0
+  lg:w-full
+  lg:h-[600px];
+}
+
 .foto-perfil-mobile {
   @apply md:hidden
   w-[400px]
@@ -214,7 +222,30 @@ w-[600px]
 h-[1025px]
 mt-[300px]
 absolute
-z-[-1];
+flex
+justify-center
+items-center
+md:relative
+z-[-1]
+md:mt-0
+md:border-none
+md:w-[300px]
+md:h-[400px]
+lg:w-[400px]
+lg:h-[500px];
+}
+
+.paragrafo-sobre-mim {
+  @apply pt-[120px]
+font-poppins
+font-medium
+text-[#E92267]
+text-[25px]
+text-center
+md:text-left
+md:text-[12px]
+md:pt-0
+lg:text-[14px];
 }
 
 .div-insta {
@@ -226,18 +257,6 @@ z-[-1];
   items-center
   lg:w-[1350px]
   lg:h-[175px];
-}
-
-.paragrafo-sobre-mim {
-  @apply flex
-justify-center
-items-center
-pt-[120px]
-font-poppins
-font-medium
-text-[#E92267]
-text-[25px]
-text-center;
 }
 
 .btn {
