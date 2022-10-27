@@ -23,28 +23,19 @@ function reviewsSection() {
           {" "}
         </div>
       </Fade>
-      <div className="w-[767px] mt-10">
+      <div className="w-[750px] md:w-[500px] lg:w-[650px] m-auto pt-10 flex justify-center">
         <OwlCarousel options={options}>
-          <img
-            src={Avaliacao1}
-            alt="avaliação do perfil google meu negocio"
-            className="w-[600px]"
-          />
-          <img
-            src={Avaliacao2}
-            alt="avaliação do perfil google meu negocio"
-            className="w-[600px]"
-          />
-          <img
-            src={Avaliacao3}
-            alt="avaliação do perfil google meu negocio"
-            className="w-[600px]"
-          />
+          <img src={Avaliacao1} alt="avaliação do perfil google meu negocio" />
+          <img src={Avaliacao2} alt="avaliação do perfil google meu negocio" />
+          <img src={Avaliacao3} alt="avaliação do perfil google meu negocio" />
         </OwlCarousel>
       </div>
       <div className="flex justify-center w-full">
         <a href="https://bit.ly/3CCmlfi">
-          <button type="button" className="btn w-[380px] h-[70px]">
+          <button
+            type="button"
+            className="btn w-[380px] h-[70px] lg:w-[275px] lg:h-[50px] lg:text-[18px]"
+          >
             Ver mais avaliações
           </button>
         </a>

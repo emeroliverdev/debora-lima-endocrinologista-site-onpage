@@ -270,6 +270,15 @@ text-[28px]
 text-[#E92267];
 }
 
+.btn {
+  @apply hover:bg-[#E92267]
+  hover:text-[#f5f5f5]
+  hover:border-none
+  hover:shadow
+  hover:shadow-[#E92267]
+  hover:duration-500;
+}
+
 .div-tratamentos {
   @apply mt-16
 flex
