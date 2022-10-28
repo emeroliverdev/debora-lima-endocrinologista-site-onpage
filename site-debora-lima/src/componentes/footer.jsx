@@ -1,7 +1,7 @@
 import React from "react";
 import InstagramIcon from "../imagens/instagram_icon.svg";
 
-function footer() {
+function Footer() {
   return (
     <div className="w-[767px] md:w-[1350px] h-[630px] md:h-[360px] mt-0 bg-[#E92267]">
       <div className="flex-col w-full h-[370px] md:h-[230px] justify-start items-start ml-10 pt-10 md:pt-2">
@@ -35,7 +35,7 @@ function footer() {
           />
         </a>
         <a href="https://instagram.com/dradebora_lima.endocrinoped?igshid=YmMyMTA2M2Y=">
-          <span className="md:text-[30px] font-rochester text-[#f5f5f5] font-semibold pl-1">
+          <span className="md:text-[30px] text-[40px] font-rochester text-[#f5f5f5] font-semibold pl-1">
             Instagram
           </span>
         </a>
@@ -52,4 +52,4 @@ function footer() {
   );
 }
 
-export default footer;
+export default Footer;

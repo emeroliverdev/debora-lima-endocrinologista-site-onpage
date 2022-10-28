@@ -6,7 +6,7 @@ import Avaliacao1 from "../imagens/avaliação_gmn_01.png";
 import Avaliacao2 from "../imagens/avaliação_gmn_02.png";
 import Avaliacao3 from "../imagens/avaliação_gmn_03.png";
 
-function reviewsSection() {
+function ReviewsSection() {
   const options = {
     items: 1,
     rewind: true,
@@ -30,18 +30,8 @@ function reviewsSection() {
           <img src={Avaliacao3} alt="avaliação do perfil google meu negocio" />
         </OwlCarousel>
       </div>
-      <div className="flex justify-center w-full">
-        <a href="https://bit.ly/3CCmlfi">
-          <button
-            type="button"
-            className="btn w-[380px] h-[70px] lg:w-[275px] lg:h-[50px] lg:text-[18px]"
-          >
-            Ver mais avaliações
-          </button>
-        </a>
-      </div>
     </div>
   );
 }
 
-export default reviewsSection;
+export default ReviewsSection;

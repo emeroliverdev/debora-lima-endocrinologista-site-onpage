@@ -6,7 +6,7 @@ import LocalIcon from "../imagens/local_icon.svg";
 import WatchIcon from "../imagens/watch_icon.svg";
 import Consultorio from "../imagens/consultorio.jpg";
 
-function contatcSection() {
+function ContatcSection() {
   return (
     <div className="flex flex-col items-start w-[767px] mt-12">
       <Fade left>
@@ -64,7 +64,7 @@ function contatcSection() {
         <div className="font-poppins text-[30px] font-semibold text-[#E92267] mt-2 pl-[128px]">
           <button
             type="button"
-            className="btn w-[220px] h-[45px] md:text-[22px] md:w-[200px] h-[40px]"
+            className="btn w-[220px] h-[45px] md:text-[22px] md:w-[200px] md:h-[40px]"
           >
             Como chegar
           </button>
@@ -93,4 +93,4 @@ function contatcSection() {
   );
 }
 
-export default contatcSection;
+export default ContatcSection;

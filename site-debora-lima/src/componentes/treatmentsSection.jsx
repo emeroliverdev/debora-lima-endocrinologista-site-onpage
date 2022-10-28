@@ -2,7 +2,7 @@ import React from "react";
 import Fade from "react-reveal/Fade";
 import TelefoneIcon from "../imagens/telefone_icon.svg";
 
-function treatmentsSection() {
+function TreatmentsSection() {
   return (
     <div>
       <div className="div-transicao-right">
@@ -131,4 +131,4 @@ function treatmentsSection() {
   );
 }
 
-export default treatmentsSection;
+export default TreatmentsSection;

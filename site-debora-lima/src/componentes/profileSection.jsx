@@ -1,11 +1,10 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
-import InstagramIcon from "../imagens/instagram_icon.svg";
 import FotoPerfilMobile from "../imagens/foto_perfil_mobile.jpg";
 import FotoPerfilDesktop from "../imagens/foto_perfil_desktop.jpg";
 import TelefoneIcon from "../imagens/telefone_icon.svg";
 
-function profileSection() {
+function ProfileSection() {
   return (
     <section>
       <div className="div-cta">
@@ -100,18 +99,8 @@ function profileSection() {
           </div>
         </div>
       </div>
-      <div className="div-insta">
-        <a href="https://instagram.com/dradebora_lima.endocrinoped?igshid=YmMyMTA2M2Y=">
-          <img src={InstagramIcon} alt="icone do instagram" />
-        </a>
-        <a href="https://instagram.com/dradebora_lima.endocrinoped?igshid=YmMyMTA2M2Y=">
-          <span className="text-7xl font-rochester font-bold text-[#f5f5f5] pl-6">
-            Instagram
-          </span>
-        </a>
-      </div>
     </section>
   );
 }
 
-export default profileSection;
+export default ProfileSection;

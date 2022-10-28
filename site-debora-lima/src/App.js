@@ -15,8 +15,8 @@ function App() {
       <Header />
       <main>
         <ProfileSection />
-        <ReviewsSection />
         <TreatmentsSection />
+        <ReviewsSection />
         <ContactSecion />
       </main>
       <Footer />
