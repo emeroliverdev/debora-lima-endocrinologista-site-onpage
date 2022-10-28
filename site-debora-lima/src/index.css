@@ -343,7 +343,18 @@ md:rounded-b-[50px];
   flex
   justify-start
   items-center
-  pl-[60px];
+  pl-[60px]
+  md:h-[48px];
+}
+
+.span-contato {
+  @apply font-poppins
+text-[34px]
+font-semibold
+text-[#E92267]
+pl-2
+md:text-[20px]
+md:font-semibold;
 }
 
 .li-footer {
@@ -351,5 +362,7 @@ md:rounded-b-[50px];
 font-semibold
 text-[30px]
 text-[#f5f5f5]
-py-1;
+py-1
+md:text-[20px]
+md:py-0;
 }
