@@ -7,7 +7,7 @@ import TelefoneIcon from "../imagens/telefone_icon.svg";
 function ProfileSection() {
   return (
     <section>
-      <div className="div-cta">
+      <div className="div-cta md:invisible md:h-[0px]">
         <span className="text-4xl font-poppins text-[#f5f5f5]">
           Agendar Consulta
         </span>

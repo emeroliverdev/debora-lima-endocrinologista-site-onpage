@@ -3,7 +3,7 @@ import InstagramIcon from "../imagens/instagram_icon.svg";
 
 function Footer() {
   return (
-    <div className="w-[767px] md:w-[1350px] h-[630px] md:h-[360px] mt-0 bg-[#E92267]">
+    <div className="w-[767px] md:w-[1350px] h-[600px] md:h-[360px] mt-0 bg-[#E92267]">
       <div className="flex-col w-full h-[370px] md:h-[230px] justify-start items-start ml-10 pt-10 md:pt-2">
         <span className="font-poppins font-extrabold text-4xl md:text-[30px] text-[#F5F5F5]">
           NAVEGUE

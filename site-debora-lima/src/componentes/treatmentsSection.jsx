@@ -104,9 +104,11 @@ function TreatmentsSection() {
         </div>
       </div>
       <div className="invisible absolute md:relative flex justify-center mt-[100px] mb-[100px] md:visible">
-        <button className="btn w-[320px] h-[55px]" type="button">
-          Agendar consulta
-        </button>
+        <a href="tel:+553736909251">
+          <button className="btn w-[320px] h-[55px]" type="button">
+            Agendar consulta
+          </button>
+        </a>
       </div>
       <div className="div-cta mt-6 md:invisible md:absolute">
         <span className="text-4xl font-poppins text-[#f5f5f5] pl-6">
