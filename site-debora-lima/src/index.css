@@ -183,7 +183,8 @@ font-semibold;
 
 .div-line {
   @apply w-[650px]
-  h-[4px]
+  h-[2px]
+  opacity-60
   bg-[#E92267]
   mr-[125px]
   mt-1
@@ -243,9 +244,9 @@ text-[#E92267]
 text-[25px]
 text-center
 md:text-left
-md:text-[12px]
+md:text-[14px]
 md:pt-0
-lg:text-[14px];
+lg:text-[16px];
 }
 
 .div-insta {

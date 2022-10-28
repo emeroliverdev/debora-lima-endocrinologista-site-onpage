@@ -39,19 +39,24 @@ function ProfileSection() {
           <img
             src={FotoPerfilMobile}
             alt="foto de perfil da doutora debora lima"
-            className="foto-perfil-mobile"
+            className="foto-perfil-mobile shadow-lg shadow-gray-400"
           />
         </Fade>
         <Fade left>
           <img
             src={FotoPerfilDesktop}
             alt="foto de perfil doutora débora lima"
-            className="invisible md:visible md:h-[350px] lg:h-[450px]"
+            className="invisible md:visible md:h-[350px] lg:h-[500px] shadow-lg shadow-gray-400"
           />
         </Fade>
         <div className="texto-sobre-mim">
           <div className="paragrafo-sobre-mim">
             <Fade big>
+              <p className="md:text-[20px] text-[38px] font-semibold md:leading-[22px]">
+                Dra. Débora Lima
+              </p>
+              <p>CRM: 80.616 | RQE: 45.787</p>
+              <br />
               <p>
                 Olá! Seja bem-vindo(a).
                 <br />
@@ -72,22 +77,13 @@ function ProfileSection() {
                 formada pela <b>Santa Casa</b> de São Paulo.
                 <br />
                 <br />
-                Titulada em Pediatria pela Sociedade
-                <br />
-                Brasileira de Pediatria e em Endocrinologia
-                <br />
-                Pediátrica pela Sociedade Brasileira
-                <br />
-                de Endocrinologia e Metabologia.
-                <br />
-                <br />
                 Após obter meu título de Endocrinologista
                 <br />
                 Pediátrica em São Paulo retornei para
                 <br />
                 Minas Gerais, Divinópolis, cidade que
                 <br />
-                acolheu a mim e miha família, onde tehno
+                acolheu a mim e miha família, onde tenho
                 <br />
                 muito orgulho de poder retribuir este
                 <br />

@@ -5,12 +5,12 @@ import TelefoneIcon from "../imagens/telefone_icon.svg";
 function TreatmentsSection() {
   return (
     <div>
-      <div className="div-transicao-right">
-        <Fade right>
-          <h2 className="h2 mr-8" id="tratamentos">
+      <div className="div-transicao-left">
+        <Fade left>
+          <h2 className="h2 ml-8" id="tratamentos">
             Tratamentos
           </h2>
-          <div className="div-line"> </div>
+          <div className="div-line ml-[140px]"> </div>
         </Fade>
       </div>
       <div className="md:flex flex-wrap justify-around">
