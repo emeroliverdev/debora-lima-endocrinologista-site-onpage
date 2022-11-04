@@ -92,8 +92,8 @@ absolute
 
 .header {
   @apply bg-[url("./imagens/background_header.jpg")]
-  w-[767px]
-  h-[400px]
+  w-full
+  h-[450px]
   bg-cover
   bg-center
   mt-6
