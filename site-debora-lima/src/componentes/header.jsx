@@ -13,7 +13,7 @@ function Header() {
         <h1>
           <span className="h1"> </span>
         </h1>
-        <div className="flex flex-col rounded-lg font-poppins font-normal text-[#f5f5f5] text-[20px] items-center justify-center ml-24 w-[250px] h-[100px] bg-[#E92267] mt-8 opacity-90 invisible md:visible">
+        <div className="div-fone-desktop">
           <div className="flex justify-start items-center">
             <img
               src={TelefoneIcon}

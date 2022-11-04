@@ -20,7 +20,7 @@ function ReviewsSection() {
         <h2 className="h2 ml-8" id="o-que-dizem">
           O que dizem?
         </h2>
-        <div className="div-line ml-[140px]"> </div>
+        <div className="div-line mr-[140px]"> </div>
       </Fade>
       <div className="w-[750px] md:w-[500px] lg:w-[650px] m-auto pt-10 flex justify-center">
         <OwlCarousel options={options}>

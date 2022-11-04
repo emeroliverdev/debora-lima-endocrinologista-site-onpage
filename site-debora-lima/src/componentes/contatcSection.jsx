@@ -13,11 +13,9 @@ function ContatcSection() {
         <h2 className="h2 ml-8" id="contato">
           Atendimento
         </h2>
-        <div className="div-line w-[650px] h-[4px] bg-[#E92267] ml-[140px] mt-1">
-          {" "}
-        </div>
+        <div className="div-line ml-[140px]"> </div>
       </Fade>
-      <div className="w-full md:w-[1350px] h-[1000px] md:h-[800px] bg-[#F9B3BC] mt-4 flex-col justify-center">
+      <div className="sessao-contato">
         <div className="div-contato mt-10 md:mt-4">
           <a href="tel:+553736909251">
             <img

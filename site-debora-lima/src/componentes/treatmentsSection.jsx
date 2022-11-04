@@ -18,7 +18,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">PUBERDADE PRECOCE</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               Quando caracteríticas do início da fase adulta aparecem antes do
               tempo normal, tais como: pelos, odor axiliar, instabilidade de
@@ -32,7 +32,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">DIABETES TIPO 1</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               Doença crônica, auto-imune, mais frequente na adolescência. Caso
               em que o pâncreas produz pouca ou nenhuma insulina. Sintomas como
@@ -46,7 +46,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">PROBLEMAS DA TIREOIDE</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               Alterações hormonais da Tireoide como o <b>Hipotireoidismo</b>{" "}
               (pouca produção hormonal) ou <b>Hipertireoidismo</b> (excesso de
@@ -59,7 +59,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">OBSIDADE INFANTIL</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               Dados do Ministério da Saúde de 2021 estimou que existam mais de 3
               milhões de crianças obesas no Brasil.
@@ -72,7 +72,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">BAIXA ESTATURA</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               Quando a altura da criança ou adolescente está abaixo da média
               para a idade e sexo.
@@ -89,7 +89,7 @@ function TreatmentsSection() {
           <div className="div-cabecalho">
             <h2 className="h2-card">SÍDROMES</h2>
           </div>
-          <div className="div-corpo text-center">
+          <div className="div-corpo">
             <p className="p-card">
               <b>NOONAN</b> - Doença genética, com vários sintomas possíveis. O
               acompanhamento médico é essencial.

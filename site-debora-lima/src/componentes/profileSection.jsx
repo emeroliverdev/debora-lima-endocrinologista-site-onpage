@@ -31,7 +31,7 @@ function ProfileSection() {
           <h2 className="h2 mr-8" id="sobre-mim">
             Sobre mim
           </h2>
-          <div className="div-line"> </div>
+          <div className="div-line mr-[140px]"> </div>
         </Fade>
       </div>
       <div className="sobre-mim-mobile">
@@ -39,14 +39,14 @@ function ProfileSection() {
           <img
             src={FotoPerfilMobile}
             alt="foto de perfil da doutora debora lima"
-            className="foto-perfil-mobile shadow-lg shadow-gray-400"
+            className="foto-perfil-mobile"
           />
         </Fade>
         <Fade left>
           <img
             src={FotoPerfilDesktop}
             alt="foto de perfil doutora débora lima"
-            className="invisible md:visible md:h-[350px] lg:h-[500px] shadow-lg shadow-gray-400"
+            className="foto-perfil-desktop"
           />
         </Fade>
         <div className="texto-sobre-mim">
